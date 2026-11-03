@@ -1,0 +1,82 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQL8__6fkLlaFg4dYS5cgRMJeSAGBm2Kqfks5-Lp6m_g&s=10);
+    background-size: cover;                  
+    background-position: center;             
+    background-repeat: no-repeat;           
+    
+}
+
+.clock-container {
+    width: 450px;
+    padding: 45px 30px;
+    text-align: center;
+    background: black;
+    border-radius: 20px;
+    box-shadow: 0 10px 35px rgba(77, 77, 164, 0.15);
+}
+
+h1 {
+    font-size: 30px;
+    color: #333366;
+    margin-bottom: 35px;
+}
+
+.clock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+#time {
+    font-size: 55px;
+    font-weight: bold;
+    color: #242587;
+}
+
+#ampm {
+    font-size: 20px;
+    color: #630a77;
+}
+
+#day {
+    font-size: 25px;
+    font-weight: bold;
+    color: #04556c;
+    margin-top: 30px;
+}
+
+#date {
+    font-size: 18px;
+    color: #03030f;
+    margin-top: 12px;
+}
+
+.footer {
+    margin-top: 35px;
+    font-size: 14px;
+    color: #0b167c;
+}
+
+@media (max-width: 500px) {
+    .clock-container {
+        width: 90%;
+        padding: 35px 15px;
+    }
+
+    #time {
+        font-size: 40px;
+    }
+}
